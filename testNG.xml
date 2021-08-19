@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="AutomationPractice" parallel="tests">
- 	<test name="ProductOrderChrome">
-	<parameter name="ReportName" value="ProductOrderChrome" />
+<suite name="Task1" parallel="tests">
+ 	<test name="SeleniumTask">
+	<parameter name="ReportName" value="countSheep" />
  	<parameter name="Browser" value="Chrome" />
 		<classes>
 			<class name="utilities.ExtentReport" />
 			<class name="utilities.TestBase" />
 			<class name="pages.PageObject" />
-			<class name="testRunner.ProductOrderRunner" />
-			<class name="testRunner.AccountCreationRunner" />
+			<class name="testRunner.CountSheepRunner" />
+
 		</classes>
 	</test>
 <!--  	 	<test name="ProductOrderFirefox">
@@ -18,8 +18,8 @@
 			<class name="utilities.ExtentReport" />
 			<class name="utilities.TestBase" />
 			<class name="pages.PageObject" />
-			<class name="testRunner.ProductOrderRunner" />
-			<class name="testRunner.AccountCreationRunner" />
+			<class name="testRunner.CountSheepRunner" />
+			<class name="testRunner.SeleiniumTaskRunner" />
 		</classes>
 	</test> -->
 </suite>
