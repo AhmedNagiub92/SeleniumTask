@@ -32,7 +32,7 @@ Feature: Selenium Task
 
     Examples:
       | employeeName | systemUserName | systemPassword | systemConfirmPassword |
-      | Aaliyah Haq  | AhmedNaguib12   | Ahmed12345     | Ahmed12345            |
+      | Aaliyah Haq  | AhmedNaguib123   | Ahmed12345     | Ahmed12345            |
 
   Scenario Outline: as an admin user i want to be able to Delete user
     Given user is added successfully
@@ -44,4 +44,4 @@ Feature: Selenium Task
     Then user is deleted
     Examples:
       | userToDelete |
-      | AhmedNaguib12 |
+      | AhmedNaguib123 |

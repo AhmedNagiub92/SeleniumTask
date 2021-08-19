@@ -52,7 +52,7 @@ public class SeleniumTask extends TestBase {
     @FindBy(id = "searchBtn")
     public static WebElement searchBtn ; //search button
 
-    @FindBy(id = "ohrmList_chkSelectRecord_45")
+    @FindBy(id = "ohrmList_chkSelectRecord_46")
     public static WebElement selectCreatedUser ; //select Created User
 
     @FindBy(id = "btnDelete")
